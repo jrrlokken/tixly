@@ -18,7 +18,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@tixly/common": "^1.0.12",
+    "@tixly/common": "^1.0.13",
     "@types/bull": "^3.15.5",
     "bull": "^4.1.0",
     "node-nats-streaming": "^0.3.2",
