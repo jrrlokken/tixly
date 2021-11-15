@@ -18,8 +18,6 @@ export class OrderCreatedListener extends Listener<OrderCreatedEvent> {
 
     await order.save();
 
-    // here is where we will emit an event
-
     msg.ack();
   }
 }
