@@ -5,6 +5,10 @@ metadata:
   annotations:
     nginx.ingress.kubernetes.io/use-regex: "true"
 spec:
+  tls:
+    - hosts:
+        - tixly.joshualokken.tech
+      secretName: tixly-tls
   ingressClassName: nginx
   rules:
     - host: tixly.joshualokken.tech
