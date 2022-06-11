@@ -4,7 +4,8 @@ export default ({ req }) => {
   if (typeof window === "undefined") {
     // server side
     return axios.create({
-      baseURL: "http://tixly.com/",
+      baseURL:
+        "https://tixly.joshualokken.tech",
       headers: req.headers,
     });
   } else {
