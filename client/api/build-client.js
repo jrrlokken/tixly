@@ -5,7 +5,7 @@ export default ({ req }) => {
     // server side
     return axios.create({
       baseURL:
-        "http://ingress-nginx-controller.ingress-nginx.svc.cluster.local",
+        "https://tixly.joshualokken.tech",
       headers: req.headers,
     });
   } else {
