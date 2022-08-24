@@ -5,15 +5,15 @@ const start = async () => {
   console.log("Starting...");
   if (!process.env.NATS_CLIENT_ID) {
     console.log(process.env);
-    throw new Error("NATS_CLIENT_ID must be defined");
+    throw new Error("NATS_CLIENT_ID must be defined!");
   }
 
   if (!process.env.NATS_URL) {
-    throw new Error("NATS_URL must be defined");
+    throw new Error("NATS_URL must be defined!");
   }
 
   if (!process.env.NATS_CLUSTER_ID) {
-    throw new Error("NATS_CLUSTER_ID must be defined");
+    throw new Error("NATS_CLUSTER_ID must be defined!");
   }
   try {
     await natsWrapper.connect(

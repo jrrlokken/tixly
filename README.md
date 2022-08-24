@@ -12,6 +12,7 @@ Event ticket marketplace
 This architecture is easily scalable and the application is production-ready.
 
 Services:
+
 - auth
 - client
 - expiration
@@ -19,7 +20,10 @@ Services:
 - payments
 - tickets
 
-Docker k8s: 
+Docker k8s:
+
 - 3 2vVPU, 2GB pools
 - ingress-nginx
 - single load balancer
+
+dop_v1_13adbf61cc8eea21e5722658076feb7dd15185cc5a91325612c1a6a46e17e199
