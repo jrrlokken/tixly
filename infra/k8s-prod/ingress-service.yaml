@@ -51,6 +51,9 @@ metadata:
   annotations:
     service.beta.kubernetes.io/do-loadbalancer-enable-proxy-protocol: "true"
     service.beta.kubernetes.io/do-loadbalancer-hostname: "tixly.joshualokken.tech"
+    service.beta.kubernetes.io/do-loadbalancer-tls-passthrough: "true"
+    service.beta.kubernetes.io/do-loadbalancer-name: "tixly.joshualokken.tech"
+
   labels:
     helm.sh/chart: ingress-nginx-4.0.1
     app.kubernetes.io/name: ingress-nginx
