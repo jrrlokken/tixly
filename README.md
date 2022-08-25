@@ -7,7 +7,7 @@ Event ticket marketplace
 - Data for each service is held in either a Mongo database or Redis.
 - The entire app is deployed and runs in Docker containers executed in a Kubernetes cluster.
 - Almost all of the code is written with Typescript.
-- CI/CD workflow via GitHub, testing by jest
+- CI/CD workflow via GitHub, testing by Jest
 
 This architecture is easily scalable and the application is production-ready.
 
